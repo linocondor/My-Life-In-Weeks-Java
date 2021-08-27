@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="20dp"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+    <ImageView
+        android:src="@drawable/clock_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You Life in Weeks"
+        android:textSize="30dp"/>
+
+
+
+    <Button
+        android:id="@+id/select_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Birth Date"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Your Age"/>
+
+    <TextView
+        android:id="@+id/your_age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="italic|bold" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Age you want to know the time you have left: "/>
+
+    <EditText
+        android:id="@+id/select_age"
+        android:inputType="number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Select Age"/>
+
+    <Button
+        android:id="@+id/calculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate"/>
+
+    <TextView
+        android:id="@+id/time_left_calculated"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Response you have 60 days to life"/>
+
+</LinearLayout>
